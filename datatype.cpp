@@ -5,5 +5,6 @@ int main(){
     string name="Tejas";
     char section='A';
     float salary = 35000.00;
+    bool isMarried = false;
     
 }
