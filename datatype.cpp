@@ -6,5 +6,6 @@ int main(){
     char section='A';
     float salary = 35000.00;
     bool isMarried = false;
-    
+
+    cout << " Id:" << id << "\n Name: " << name << "\n Section: " << section << "\n Salary: " << salary << "\n Married: " << isMarried;
 }
