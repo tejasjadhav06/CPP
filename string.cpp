@@ -18,5 +18,10 @@ int main(){
 
     // Access String
     cout << "\n" << last[1];
+
+    string fullname;
+    cout << "\nEnter your Full Name: ";
+    cin >> fullname;
+    cout << "\nYour Name is : " << fullname;
     return 0;
 }
