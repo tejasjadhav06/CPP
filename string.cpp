@@ -15,5 +15,8 @@ int main(){
 
     // Length of string.
     cout << "\nLength of String : " << name.length();
+
+    // Access String
+    cout << "\n" << last[1];
     return 0;
 }
