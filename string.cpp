@@ -13,5 +13,7 @@ int main(){
     cout << "Concate String using append method: ";
     cout << name.append(" Jadhav");
 
+    // Length of string.
+    cout << "\nLength of String : " << name.length();
     return 0;
 }
