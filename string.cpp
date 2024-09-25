@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-void main(){
+int main(){
     string name = "Tejas";
     string last = " Jadhav";
+    cout << name << last;
+    return 0;
 }
