@@ -2,24 +2,6 @@
 using namespace std;
 int main(){
 
-    // if(true){
-    //     cout << "Hey I am from if block.";
-    // }
-    // else{
-    //     cout << "Hey I am from else block.";
-    // }
-
-    /*
-    if(condition){
-      block of if 
-    }
-    else if(condition){
-        block of if code    
-    }
-    else{
-        block of else statement    
-    }
-    */
     int mark;
     cout << "Enter your Marks. Only Numbers are allowed : ";
     cin >> mark;
@@ -40,11 +22,3 @@ int main(){
     }
     return 0;
 }
-
-// Grade A: 90 to 100
-// Grade B: 80 to 90
-// Grade C: 70 to 80
-// Grade D: 60 to 70
-// Grade E: 50 to 60
-// Grade F: 40 to 50
-// mark < 40 : Fail
