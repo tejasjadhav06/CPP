@@ -6,4 +6,8 @@ int main(){
    cout << "Enter your Grade: ";
    cin >> grade;
 
+   switch(grade){
+    
+   }
+
 }
