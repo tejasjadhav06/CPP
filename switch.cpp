@@ -13,6 +13,9 @@ int main(){
     case 'B' : 
             cout << "You Score Between 80 to 90";
             break;
+    case 'C' : 
+            cout << "You Score Between 70 to 80";
+            break;
    }
 
 }
