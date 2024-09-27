@@ -22,6 +22,9 @@ int main(){
     case 'E' : 
             cout << "You Score Between 50 to 60";
             break;
+    case 'F' : 
+            cout << "You Score Between 40 to 50";
+            break;
    }
 
 }
