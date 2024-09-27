@@ -25,6 +25,9 @@ int main(){
     case 'F' : 
             cout << "You Score Between 40 to 50";
             break;
+    default:
+            cout << "You Score less than 40";
+            break;
    }
 
 }
