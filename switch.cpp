@@ -7,7 +7,9 @@ int main(){
    cin >> grade;
 
    switch(grade){
-    
+    case 'A' : 
+            cout << "You Score Greater than 90";
+            break;
    }
 
 }
