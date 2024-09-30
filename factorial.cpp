@@ -1,18 +1,20 @@
 #include<iostream>
 using namespace std;
-int main(){
-    int num,fact = 1;
-    cout << "Enter Number : ";
-    cin >> num;
+int findFact(int num){
+    int fact=1;
     if(num == 0 || num == 1){
-        cout << 1;
+        return 1;
     }
-    else{
-        for(int i=num;i>0;i--){
+    for(int i=num;i>0;i--){
             fact *= i;
         }
-        cout << fact;
-    }
+    return fact;
+}
 
-    return 0;
+int main(){
+    int num,fact;
+    cout << "Enter Number : ";
+    cin >> num;
+    fact = findFact(num);
+    cout << fact;
 }
