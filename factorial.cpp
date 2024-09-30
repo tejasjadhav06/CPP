@@ -4,8 +4,13 @@ int main(){
     int num,fact = 1;
     cout << "Enter Number : ";
     cin >> num;
-    for(int i=num;i>0;i--){
-        fact *= i;
+    if(num == 0 || num == 1){
+        cout << 1;
     }
-    cout << fact;
+
+    // for(int i=num;i>0;i--){
+    //     fact *= i;
+    // }
+    // cout << fact;
+    return 0;
 }
