@@ -7,10 +7,12 @@ int main(){
     if(num == 0 || num == 1){
         cout << 1;
     }
+    else{
+        for(int i=num;i>0;i--){
+            fact *= i;
+        }
+        cout << fact;
+    }
 
-    // for(int i=num;i>0;i--){
-    //     fact *= i;
-    // }
-    // cout << fact;
     return 0;
 }
