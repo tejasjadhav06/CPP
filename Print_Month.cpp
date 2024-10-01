@@ -14,6 +14,8 @@ int main(){
         case 4:
                 cout << "April";   
         case 5:
-                cout << "May";          
+                cout << "May";       
+        case 6:
+                cout << "June";   
     }
 }
