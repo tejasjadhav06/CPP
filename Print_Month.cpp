@@ -10,6 +10,8 @@ int main(){
         case 2:
                 cout << "February";  
         case 3:
-                cout << "March";                
+                cout << "March";   
+        case 4:
+                cout << "April";             
     }
 }
