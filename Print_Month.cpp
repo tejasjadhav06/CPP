@@ -19,5 +19,7 @@ int main(){
                 cout << "June";   
         case 7:
                 cout << "July";
+        case 8:
+                cout << "August";
     }
 }
