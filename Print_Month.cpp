@@ -7,6 +7,7 @@ int main(){
     switch(num){
         case 1:
                 cout << "January";
-                    
+        case 2:
+                cout << "February";                 
     }
 }
