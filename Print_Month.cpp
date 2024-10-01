@@ -21,5 +21,7 @@ int main(){
                 cout << "July";
         case 8:
                 cout << "August";
+        case 9:
+                cout << "September";
     }
 }
